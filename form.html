@@ -6,6 +6,95 @@
     <title>form fundamentals</title>
 </head>
 <body>
-    
+    <main>
+        <header>
+            <h1>become a driver </h1>
+                <h2>
+                    <a href="#">sign up for a ride</a>
+                
+                </h2>
+        </header>
+            <form>
+                <ul>
+                
+                        <li>
+                            <span>
+                                <input type="radio" name="car" id="have">
+                                <label for="have">i have a car</label>
+                            </span>
+
+                            <span>
+                                <input type="radio" name="car" id="need">
+                                <label for="need">i need a car</label>
+                            </span>
+                        </li>
+
+
+                        <li>
+                            <label for="fname">first name</label>
+                            <input type="text" name="fname" id="fname" placeholder="Enter Your First Name" required>
+                        </li>
+
+                        <li><label for="sname">Surname</label>
+                            <input type="text" name="sname" id="sname" placeholder="Enter Your SurName" required>
+                        </li>
+
+                        <li>
+                            <label for="email">Email Address</label>
+                            <input type="email" name="email" id="email" placeholder="username@domain.com" required>
+                        </li>
+
+                        <li>
+                            <label for="pwd">Password</label>
+                            <input type="password" name="password" id="pwde" required>
+                        </li>
+
+                        <li><label for="DOB">Date of Birth</label>
+                            <input type="date" name="DOB" id="DOB">
+                        </li>
+                        
+                        <li>
+                            <label for="tel">Telephone Number</label>
+                            <input type="tel" name="tel" id="tel" placeholder="Enter Your Phone Number with country code" required>
+                        </li>
+                        
+                        <li>
+                            <label for="City">City you will drive in</label>
+                            <select>
+                                <option value="Default" selected>Select your City</option>
+                               <optgroup> <label="SOUTH WEST">
+                                <Option value="lg">Lagos</Option>
+                                <Option value="Ab">Abeokuta</Option>
+                                </optgroup>
+                                
+                                <optgroup label="SOUTH SOUTH">
+                                <Option value="Ph">Port Harcourt</Option>
+                                <Option value="CL">Calabar</Option>
+                                </optgroup>
+                                
+                                <Optgroup>SOUTH EAST</Optgroup>
+                                <Option value="OW">Owerri</Option>
+                                <Option value="EN">Enugu</Option>
+
+                                <optgroup>NORTH WEST</optgroup>
+                                <Option value="KD">Kaduna</Option>
+                                <Option value="KN">Kano</Option>
+                            </select>
+                        </li>
+                    
+                        <li>
+                            <label for="invite">invite code (optional)</label>
+                            <input type="number" name="invite" id="invite">
+                        </li>
+
+                        <li>
+                            <label for="upload"></label>
+                        </li>
+                </ul>
+
+
+            </form>
+
+    </main>
 </body>
 </html>
